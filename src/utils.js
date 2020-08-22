@@ -10,41 +10,87 @@ import {
 } from './data';
 
 // length
-export const maxItems = (arr, num) => {};
+export const maxItems = (arr, num) => { };
 
 // every
-export const canAllDrink = (arr) => {};
+export const canAllDrink = (arr) =>
+    arr.length && arr.every((value) => value.age >= 18);
 
 // some
-export const canSomeoneDrink = (arr) => {};
+export const canSomeoneDrink = (arr) => arr.some((value) => value.age >= 18);
 
-// filter
-export const characterFilter = (arr, options = {}) => {};
+// // filter
+export const characterFilter = (
+    arr,
+    options = {
+        minAge: undefined,
+        name: undefined,
+        media: undefined,
+        type: undefined,
+        gender: undefined,
+    }
+) =>
+    arr.filter((character) => {
+        let minAgePasses = true;
+        let namePasses = true;
+        let mediaPasses = true;
+        let typePasses = true;
+        let genderPasses = true;
 
-// some
-export const isIsogram = (str) => {};
+        if (options.minAge !== undefined) {
+            minAgePasses = character.age >= options.minAge;
+        }
 
-// reduce
-export const oddAndEven = (arr) => {};
+        if (options.name !== undefined) {
+            namePasses = character.name
+                .toLowerCase()
+                .includes(options.name.toLowerCase().trim());
+        }
 
-// fill
-export const countSheep = (num) => {};
+        if (options.media !== undefined) {
+            mediaPasses = character.media.includes(options.media);
+        }
 
-// reduce
-export const scoreAverage = (arr) => {};
+        if (options.type !== undefined) {
+            typePasses = character.type === options.type;
+        }
 
-// reduce + forEach
-export const moreCommonWord = (str, blackList) => {};
+        if (options.gender !== undefined) {
+            genderPasses = character.gender === options.gender;
+        }
 
-// Object.entries()
-export const findInObj = (obj, id) => {};
+        return (
+            minAgePasses &&
+            namePasses &&
+            mediaPasses &&
+            typePasses &&
+            genderPasses
+        );
+    });
 
-// indexOf() + Math.random()
-export const janKenPon = (arr) => {};
+// // some
+// export const isIsogra = (str) =>  };
 
-// pipe
-export const palindrome = (str) => {};
-export const cesarCodex = (str, shift) => {};
+// // rduce
+// export const oddAndEe = (arr) =>  };
 
-// Matrix
-export const matrixLetter = (letter, num) => {};
+// // fill
+// export const countShe = (num) =>  };
+
+// // redce
+// export const scoreAvrag = (arr) =>  };
+
+// // reduce + forEach
+// export const moreCommonWord = (str, backList) =>  };
+
+// // Object.entries()export const findInObj = (obj, id) => { };
+
+// // indexOf() + Math.ranom()
+// export const janKenPo = (arr) =>  };
+
+// // pipe
+// export const palindro = (str) =>  };
+// export const cesarCodex = (st, shift) =>  };
+
+// // Matrix
+// export const matrixLtter = (leter, num) =>  };

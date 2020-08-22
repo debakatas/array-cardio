@@ -13,27 +13,27 @@ import {
     scoreAverage,
 } from '../src/utils';
 
-describe('canAllDrink', () => {
+test('canAllDrink', () => {
     expect(canAllDrink([{ age: 19 }, { age: 20 }])).toBeTruthy();
     expect(canAllDrink([{ age: 18 }, { age: 54 }])).toBeTruthy();
     expect(canAllDrink([{ age: 15 }, { age: 20 }])).toBeFalsy();
     expect(canAllDrink([])).toBeFalsy();
 });
 
-describe('canSomeoneDrink', () => {
+test('canSomeoneDrink', () => {
     expect(canSomeoneDrink([{ age: 17 }, { age: 20 }])).toBeTruthy();
     expect(canSomeoneDrink([{ age: 5 }, { age: 54 }])).toBeTruthy();
     expect(canSomeoneDrink([{ age: 15 }, { age: 14 }])).toBeFalsy();
     expect(canSomeoneDrink([])).toBeFalsy();
 });
 
-describe('cesarCodex', () => {
+test('cesarCodex', () => {
     expect(cesarCodex('abc')).toBe('def');
     expect(cesarCodex('The end comes by', 7)).toBe('Aol luk jvtlz if');
     expect(cesarCodex('Aol luk jvtlz if', -7)).toBe('The end comes by');
 });
 
-describe('matrixLetter', () => {
+test('matrixLetter', () => {
     expect(matrixLetter('a', 1)).toBe(
         `
 a
@@ -49,7 +49,7 @@ XXX
     );
 });
 
-describe('characterFilter', () => {
+test('characterFilter', () => {
     const characters = [
         {
             age: 55,
@@ -114,14 +114,14 @@ describe('characterFilter', () => {
     expect(characters).toStrictEqual(characters);
 });
 
-describe('findInObj', () => {
+test('findInObj', () => {
     expect(findInObj([{ id: 1 }, { id: 2 }], 1)).toStrictEqual({ id: 1 });
     expect(
         findInObj([{ id: 'mai', test: 'v' }, { id: 'oui' }], 'mai')
     ).toStrictEqual({ id: 'mai', test: 'v' });
 });
 
-describe('isIsogram', () => {
+test('isIsogram', () => {
     expect(isIsogram('Murcielago')).toBeTruthy();
     expect(isIsogram('The big dwarf only jumps')).toBeTruthy();
     expect(isIsogram('Centrifugadlos')).toBeTruthy();
@@ -129,7 +129,7 @@ describe('isIsogram', () => {
     expect(isIsogram('El perro')).toBeFalsy();
 });
 
-describe('moreCommonWord', () => {
+test('moreCommonWord', () => {
     const englishBlackList = ['is', 'a', 'the'];
     const spanishBlackList = ['la', 'de', 'los', 'el', 'a'];
 
@@ -148,12 +148,12 @@ describe('moreCommonWord', () => {
     ).toBe('miembros');
 });
 
-describe('maxItems', () => {
+test('maxItems', () => {
     expect(maxItems(Array(10), 4).length).toBe(4);
     expect(maxItems(Array(3), 4).length).toBe(3);
 });
 
-describe('oddAndEven', () => {
+test('oddAndEven', () => {
     expect(oddAndEven([1, 2, 3])).toStrictEqual({ odd: [1, 3], even: [2] });
     expect(oddAndEven([14, 12, 200])).toStrictEqual({
         odd: [],
@@ -165,7 +165,7 @@ describe('oddAndEven', () => {
     });
 });
 
-describe('palindrome', () => {
+test('palindrome', () => {
     expect(palindrome('A la torre derrotala')).toBeTruthy();
     expect(palindrome('Ana')).toBeTruthy();
     expect(palindrome('Anita lava la tina')).toBeTruthy();
@@ -175,7 +175,7 @@ describe('palindrome', () => {
     expect(palindrome('Laura no esta laura se fue')).toBeFalsy();
 });
 
-describe('scoreAverage', () => {
+test('scoreAverage', () => {
     expect(scoreAverage([1, 2, 10, 30])).toBe(10.75);
     expect(scoreAverage([])).toBe(0);
     expect(scoreAverage([-10, 10])).toBe(0);

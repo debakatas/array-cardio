@@ -72,8 +72,8 @@ export const movies = [
     {
         name: 'Project Almanac',
         score: 6.4,
-        description:
-            year: 2000,
+        description: 'holi',
+        year: 2000,
     },
     {
         name: 'Timecop',
@@ -289,237 +289,203 @@ export const characters = [
 ];
 
 export const books = {
-    "0": {
-        title: "En las montañas de la locura",
+    '0': {
+        title: 'En las montañas de la locura',
         available: 3,
-        author: "H.P. Lovecraft",
-        cover: "http://debakatas.com/cover/enlasmontanasdelalocura.jpg"
+        author: 'H.P. Lovecraft',
+        cover: 'http://debakatas.com/cover/enlasmontanasdelalocura.jpg',
     },
-    "1": {
-        title: "Necronomicon",
+    '1': {
+        title: 'Necronomicon',
         available: 3,
-        author: "Abdul Alhazred",
-        cover: "http://debakatas.com/cover/necronomicon.jpg"
+        author: 'Abdul Alhazred',
+        cover: 'http://debakatas.com/cover/necronomicon.jpg',
     },
-    "2": {
-        title: "Codex Gigas",
+    '2': {
+        title: 'Codex Gigas',
         available: 3,
-        author: "Desconocido",
-        cover: "http://debakatas.com/cover/codex-gigas.jpg"
+        author: 'Desconocido',
+        cover: 'http://debakatas.com/cover/codex-gigas.jpg',
     },
-    "3": {
-        title: "Manuscrito Voynich",
+    '3': {
+        title: 'Manuscrito Voynich',
         available: 3,
-        author: "Desconocido",
-        cover: "http://debakatas.com/cover/manuscrito-voynich.jpg"
+        author: 'Desconocido',
+        cover: 'http://debakatas.com/cover/manuscrito-voynich.jpg',
     },
-    "4": {
-        title: "Memorias de una vida pasada",
+    '4': {
+        title: 'Memorias de una vida pasada',
         available: 3,
-        author: "Richard Webster",
-        cover: "http://debakatas.com/cover/vidas-pasadas.jpg"
+        author: 'Richard Webster',
+        cover: 'http://debakatas.com/cover/vidas-pasadas.jpg',
     },
-    "5": {
-        title: "El libro de San Ciprino y Santa Justina",
+    '5': {
+        title: 'El libro de San Ciprino y Santa Justina',
         available: 3,
-        author: "San Ciprino",
-        cover: "http://debakatas.com/cover/grimorio-san-ciprino.jpg"
+        author: 'San Ciprino',
+        cover: 'http://debakatas.com/cover/grimorio-san-ciprino.jpg',
     },
-    "6": {
-        title: "Malleus Maleficarum",
+    '6': {
+        title: 'Malleus Maleficarum',
         available: 3,
-        author: "Desconocido",
-        cover: "http://debakatas.com/cover/malleus-maleficarum.jpg"
+        author: 'Desconocido',
+        cover: 'http://debakatas.com/cover/malleus-maleficarum.jpg',
     },
-    "7": {
-        title: "Codex Seraphinianus",
+    '7': {
+        title: 'Codex Seraphinianus',
         available: 3,
-        author: "Luigi Serafini",
-        cover: "http://debakatas.com/cover/codex-seraphinianus.jpg"
+        author: 'Luigi Serafini',
+        cover: 'http://debakatas.com/cover/codex-seraphinianus.jpg',
     },
-    "8": {
-        title: "Código de Copiale",
+    '8': {
+        title: 'Código de Copiale',
         available: 3,
-        author: "La Altamente Iluminada Sociedad Oculista",
-        cover: "http://debakatas.com/cover/copiale-cipher.jpg"
+        author: 'La Altamente Iluminada Sociedad Oculista',
+        cover: 'http://debakatas.com/cover/copiale-cipher.jpg',
     },
-    "9": {
-        title: "El gran grimorio del Papa Honorio",
+    '9': {
+        title: 'El gran grimorio del Papa Honorio',
         available: 3,
-        author: "Papa Honorio",
-        cover: "http://debakatas.com/cover/grimorio-papa-honorio.jpg"
+        author: 'Papa Honorio',
+        cover: 'http://debakatas.com/cover/grimorio-papa-honorio.jpg',
     },
-    "10": {
-        title: "El Palimpsesto de Arquímedes",
+    '10': {
+        title: 'El Palimpsesto de Arquímedes',
         available: 3,
-        author: "Arquímedes",
-        cover: "http://debakatas.com/cover/palimpsesto-arquimedes.jpg"
+        author: 'Arquímedes',
+        cover: 'http://debakatas.com/cover/palimpsesto-arquimedes.jpg',
     },
-    "11": {
-        title: "Masticatione Mortuorum in Tumulis",
+    '11': {
+        title: 'Masticatione Mortuorum in Tumulis',
         available: 3,
-        author: "Michael Ranft",
-        cover: "http://debakatas.com/cover/masticatione-mortuorum.jpg"
+        author: 'Michael Ranft',
+        cover: 'http://debakatas.com/cover/masticatione-mortuorum.jpg',
     },
-    "12": {
-        title: "Lemegeton Clavicula Salomonis",
+    '12': {
+        title: 'Lemegeton Clavicula Salomonis',
         available: 3,
-        author: "Salomón",
-        cover: "http://debakatas.com/cover/lemegeton-clavicula-salomonis.jpg"
+        author: 'Salomón',
+        cover: 'http://debakatas.com/cover/lemegeton-clavicula-salomonis.jpg',
     },
-    "13": {
-        title: "Codex Rohonzi",
+    '13': {
+        title: 'Codex Rohonzi',
         available: 3,
-        author: "Viorica Enachiuc",
-        cover: "http://debakatas.com/cover/rohonzi-codex.gif"
+        author: 'Viorica Enachiuc',
+        cover: 'http://debakatas.com/cover/rohonzi-codex.gif',
     },
-    "14": {
-        title: "Steganographia",
+    '14': {
+        title: 'Steganographia',
         available: 3,
-        author: "Johann von Heidenberg",
-        cover: "http://debakatas.com/cover/steganographia.jpg"
+        author: 'Johann von Heidenberg',
+        cover: 'http://debakatas.com/cover/steganographia.jpg',
     },
-    "15": {
-        title: "La maldición de Hill House",
+    '15': {
+        title: 'La maldición de Hill House',
         available: 3,
-        author: "Shirley Jackson",
-        cover: "http://debakatas.com/cover/madicion-hill-house.jpg"
-    }
+        author: 'Shirley Jackson',
+        cover: 'http://debakatas.com/cover/madicion-hill-house.jpg',
+    },
 };
 
-export const numbers = [
-    1,
-    12,
-    4,
-    1231,
-    13,
-    645,
-    44,
-    66,
-    867,
-];
+export const numbers = [1, 12, 4, 1231, 13, 645, 44, 66, 867];
 
 export const people = [
     [
         {
-            id: "5f408965bc16e51a844eae6c",
+            id: '5f408965bc16e51a844eae6c',
             age: 28,
-            eyeColor: "green",
+            eyeColor: 'green',
             name: {
-                first: "Cantu",
-                last: "Carroll"
-            }
+                first: 'Cantu',
+                last: 'Carroll',
+            },
         },
         {
-            id: "5f408965e76c5dac326ecf7f",
+            id: '5f408965e76c5dac326ecf7f',
             age: 33,
-            eyeColor: "blue",
+            eyeColor: 'blue',
             name: {
-                first: "Corine",
-                last: "Navarro"
-            }
+                first: 'Corine',
+                last: 'Navarro',
+            },
         },
         {
-            id: "5f408965ec32ffb2cae9ccc8",
+            id: '5f408965ec32ffb2cae9ccc8',
             age: 38,
-            eyeColor: "blue",
+            eyeColor: 'blue',
             name: {
-                first: "Riddle",
-                last: "Cobb"
-            }
+                first: 'Riddle',
+                last: 'Cobb',
+            },
         },
         {
-            id: "5f40896581f733d4e9253401",
+            id: '5f40896581f733d4e9253401',
             age: 24,
-            eyeColor: "green",
+            eyeColor: 'green',
             name: {
-                first: "Wilson",
-                last: "Craig"
-            }
+                first: 'Wilson',
+                last: 'Craig',
+            },
         },
         {
-            id: "5f408965f2fcf9e94a67da22",
+            id: '5f408965f2fcf9e94a67da22',
             age: 26,
-            eyeColor: "blue",
+            eyeColor: 'blue',
             name: {
-                first: "Dena",
-                last: "Hewitt"
-            }
+                first: 'Dena',
+                last: 'Hewitt',
+            },
         },
         {
-            id: "5f408965f2a6d8602118f0c6",
+            id: '5f408965f2a6d8602118f0c6',
             age: 27,
-            eyeColor: "blue",
+            eyeColor: 'blue',
             name: {
-                first: "Fern",
-                last: "Serrano"
-            }
+                first: 'Fern',
+                last: 'Serrano',
+            },
         },
         {
-            id: "5f408965d8dbc7e5b1d2fb7c",
+            id: '5f408965d8dbc7e5b1d2fb7c',
             age: 22,
-            eyeColor: "blue",
+            eyeColor: 'blue',
             name: {
-                first: "Garner",
-                last: "Jennings"
-            }
+                first: 'Garner',
+                last: 'Jennings',
+            },
         },
         {
-            id: "5f4089654255a053b9a8fa6a",
+            id: '5f4089654255a053b9a8fa6a',
             age: 21,
-            eyeColor: "brown",
+            eyeColor: 'brown',
             name: {
-                first: "Tamera",
-                last: "Daugherty"
-            }
+                first: 'Tamera',
+                last: 'Daugherty',
+            },
         },
         {
-            id: "5f408965a926105e1528d32d",
+            id: '5f408965a926105e1528d32d',
             age: 33,
-            eyeColor: "brown",
+            eyeColor: 'brown',
             name: {
-                first: "Horn",
-                last: "Woodward"
-            }
+                first: 'Horn',
+                last: 'Woodward',
+            },
         },
         {
-            id: "5f40896583f534b90b3206d4",
+            id: '5f40896583f534b90b3206d4',
             age: 23,
-            eyeColor: "blue",
+            eyeColor: 'blue',
             name: {
-                first: "Bonita",
-                last: "Whitney"
-            }
-        }
-    ]
+                first: 'Bonita',
+                last: 'Whitney',
+            },
+        },
+    ],
 ];
 
-export const cardSigns = [
-    "♣",
-    "♠",
-    "♦",
-    "♥",
-]
+export const cardSigns = ['♣', '♠', '♦', '♥'];
 
-export const cardOrder = [
-    "A",
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8,
-    9,
-    10,
-    "J",
-    "Q",
-    ,
-]
+export const cardOrder = ['A', 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 'J', 'Q', ,];
 
-export const janKenPonFigures = [
-    "🧻",
-    "✂️",
-    "✊🏽",
-]
+export const janKenPonFigures = ['🧻', '✂️', '✊🏽'];
